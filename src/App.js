@@ -1,3 +1,5 @@
+//Desenvolvido por: Bruno Cesar de Oliveira Franco
+
 import React, { useState } from 'react';
 
 const LoginComponent = () => {
@@ -15,7 +17,7 @@ const LoginComponent = () => {
   };
 
   return (
-    <div>
+    <div style={{ margin: '10px' }}> {/* Aqui está a adição de margem de 10px */}
       <h1>Login</h1>
       <label htmlFor="email">E-mail:</label>
       <input
