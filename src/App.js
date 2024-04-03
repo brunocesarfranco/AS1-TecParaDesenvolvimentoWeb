@@ -1,4 +1,5 @@
-//Desenvolvido por: Bruno Cesar de Oliveira Franco
+// Desenvolvido por: Bruno Cesar de Oliveira Franco
+// Disciplina: Tecnologias Para Desenvolvimento Web (11100010566_20241_01)
 
 import React, { useState } from 'react';
 
@@ -17,7 +18,7 @@ const LoginComponent = () => {
   };
 
   return (
-    <div style={{ margin: '10px' }}> {/* Aqui está a adição de margem de 10px */}
+    <div style={{ margin: '10px' }}>
       <h1>Login</h1>
       <label htmlFor="email">E-mail:</label>
       <input
